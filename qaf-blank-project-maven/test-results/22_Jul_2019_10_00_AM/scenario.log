@@ -1,0 +1,253 @@
+15:31:12 scenario.file.loc[Ljava.lang.String;@32ee6fee
+15:31:12 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+15:31:12 total test found: 1
+15:31:13 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+15:31:13 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+15:31:13 pkg: com.qmetry.qaf.automation.step
+15:31:13 pkg: com.rtp.steps
+15:31:13 Found duplicate step to load [] with [lower] prority then []
+15:31:13 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:31:36 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:31:36 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:31:37 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:31:37 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:31:37 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:31:37 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:31:38 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:31:38 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:31:39 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:31:39 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:31:39 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:31:39 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+15:34:11 scenario.file.loc[Ljava.lang.String;@5e57643e
+15:34:11 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+15:34:11 total test found: 1
+15:34:12 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+15:34:12 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+15:34:12 pkg: com.qmetry.qaf.automation.step
+15:34:12 pkg: com.rtp.steps
+15:34:12 Found duplicate step to load [] with [lower] prority then []
+15:34:12 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:34:20 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:34:20 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:34:20 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:34:20 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:34:20 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:34:20 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:34:20 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:34:20 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:34:21 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:34:21 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:34:21 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:34:21 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+15:36:35 scenario.file.loc[Ljava.lang.String;@32ee6fee
+15:36:35 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+15:36:35 total test found: 1
+15:42:19 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+15:42:19 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+15:42:19 pkg: com.qmetry.qaf.automation.step
+15:42:19 pkg: com.rtp.steps
+15:42:19 Found duplicate step to load [] with [lower] prority then []
+15:42:19 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:42:27 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:42:27 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:42:27 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:42:27 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:42:27 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:42:27 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:42:28 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:42:28 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:42:28 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:42:28 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:42:29 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:42:29 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+12:12:59 scenario.file.loc[Ljava.lang.String;@f736069
+12:12:59 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+12:12:59 total test found: 1
+12:13:24 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+12:13:24 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+12:13:24 pkg: com.qmetry.qaf.automation.step
+12:13:25 pkg: com.rtp.steps
+12:13:25 Found duplicate step to load [] with [lower] prority then []
+12:13:25 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+12:13:36 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+12:13:36 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+12:13:36 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+12:13:36 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+12:13:37 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+12:13:37 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+12:13:40 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+12:13:40 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+12:13:40 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+12:13:40 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+12:13:41 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+12:13:41 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+12:14:59 scenario.file.loc[Ljava.lang.String;@50de0926
+12:14:59 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+12:14:59 total test found: 1
+12:14:59 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+12:14:59 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+12:14:59 pkg: com.qmetry.qaf.automation.step
+12:14:59 pkg: com.rtp.steps
+12:14:59 Found duplicate step to load [] with [lower] prority then []
+12:15:00 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+12:15:05 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+12:15:05 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+12:15:05 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+12:15:05 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+12:15:05 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+12:15:05 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+12:15:06 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+12:15:06 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+12:15:06 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+12:15:06 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+12:15:07 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+12:15:07 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+17:26:20 scenario.file.loc[Ljava.lang.String;@32ee6fee
+17:26:20 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+17:26:20 total test found: 1
+17:26:21 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+17:26:21 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+17:26:21 pkg: com.qmetry.qaf.automation.step
+17:26:21 pkg: com.rtp.steps
+17:26:21 Found duplicate step to load [] with [lower] prority then []
+17:26:21 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:26:33 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:26:33 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:26:34 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:26:34 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:26:34 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:26:34 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:26:34 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:26:34 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:26:35 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:26:35 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:26:36 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:26:36 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+17:34:27 scenario.file.loc[Ljava.lang.String;@5e57643e
+17:34:27 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+17:34:27 total test found: 1
+17:34:27 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+17:34:27 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+17:34:27 pkg: com.qmetry.qaf.automation.step
+17:34:27 pkg: com.rtp.steps
+17:34:27 Found duplicate step to load [] with [lower] prority then []
+17:34:27 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:34:38 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:34:38 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:34:38 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:34:38 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:34:38 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:34:38 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:34:39 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:34:39 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:34:39 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:34:39 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:34:40 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:34:40 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+17:40:46 scenario.file.loc[Ljava.lang.String;@5e57643e
+17:40:47 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+17:40:47 total test found: 1
+17:40:47 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+17:40:47 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+17:40:47 pkg: com.qmetry.qaf.automation.step
+17:40:47 pkg: com.rtp.steps
+17:40:47 Found duplicate step to load [] with [lower] prority then []
+17:40:47 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:40:52 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:40:52 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:40:52 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:40:52 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:40:53 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:40:53 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:40:53 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:40:53 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:40:53 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:40:53 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:40:54 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:40:54 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+17:43:35 scenario.file.loc[Ljava.lang.String;@32ee6fee
+17:43:35 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+17:43:35 total test found: 1
+17:43:35 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+17:43:35 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+17:43:35 pkg: com.qmetry.qaf.automation.step
+17:43:35 pkg: com.rtp.steps
+17:43:35 Found duplicate step to load [] with [lower] prority then []
+17:43:36 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:43:42 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:43:42 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:43:42 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:43:42 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:43:42 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:43:42 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:43:43 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:43:43 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:43:43 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:43:43 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:43:43 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:43:43 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+17:45:58 scenario.file.loc[Ljava.lang.String;@5e57643e
+17:45:59 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+17:45:59 total test found: 1
+17:45:59 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+17:45:59 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+17:45:59 pkg: com.qmetry.qaf.automation.step
+17:45:59 pkg: com.rtp.steps
+17:45:59 Found duplicate step to load [] with [lower] prority then []
+17:45:59 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:46:06 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:46:06 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:46:07 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:46:07 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:46:07 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:46:07 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:46:07 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:46:07 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:46:08 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:46:08 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:46:08 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:46:08 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS
+17:51:53 scenario.file.loc[Ljava.lang.String;@5e57643e
+17:51:53 loading feature file: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\.\scenarios\TestDemo.feature
+17:51:53 total test found: 1
+17:51:53 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+17:51:53 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+17:51:53 pkg: com.qmetry.qaf.automation.step
+17:51:53 pkg: com.rtp.steps
+17:51:53 Found duplicate step to load [] with [lower] prority then []
+17:51:53 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:51:59 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+17:51:59 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:51:59 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+17:51:59 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:52:00 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+17:52:00 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:52:00 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+17:52:00 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:52:00 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+17:52:00 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:52:01 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+17:52:01 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS

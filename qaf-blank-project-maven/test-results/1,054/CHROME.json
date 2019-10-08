@@ -1,0 +1,14 @@
+[
+  {
+    "TestID": "@Demo_001_CHROME",
+    "DeviceCode": "CHROME",
+    "Platform": "CHROME",
+    "RTP_tcID": "2605",
+    "Automation_tcID": "Demo_001",
+    "Details": {
+      "Status": "Passed",
+      "StartTime": 1565345665233,
+      "EndTime": 1565345672701
+    }
+  }
+]

@@ -1,0 +1,42 @@
+changepwd.link = xpath=//a[text()='Change Password']
+changepin.link = xpath=//a[text()='Change PIN']
+signout.link = xpath=//a[text()='Sign Out']
+changepwd.label = xpath=//h2[text()='Change Password']
+changepin.label = xpath=//h2[text()='Change Account Pin']
+sigin.label = xpath=//p[text()='Enter Your Account Login Details to proceed']
+newpassword.input = name=password
+confirmpassword.input = name=cpassword
+submitpassword.button = name=submitButton
+newpin.input = name=pin
+confirmpin.input = name=cpin
+changepin.button = name=submitButton
+funds.receviersbank.name.input = xpath=(//div[@id='AccountSummaryPanel']//input[@name='rbname'])[2]
+funds.receviers.name.input = xpath=(//div[@id='AccountSummaryPanel']//input[@name='rname'])[3]
+funds.receviers.no.input = xpath=//div[@id='AccountSummaryPanel']//input[@name='accno']
+funds.swift.no.input = xpath=(//div[@id='AccountSummaryPanel']//input[@name='swift'])[3]
+funds.sender.no.input = xpath=(//div[@id='AccountSummaryPanel']//input[@name='saccno'])[1]
+funds.amt.input = name=amt
+funds.select.listvalue = name=toption
+funds.date.input = name=dot
+funds.desc.input = name=desc
+funds.submit.button = name=submitButton
+funds.transfer.link = xpath=//div[@id='AccountSummaryPanel']//li[text()='Fund Transfer']
+admin.uname.input = name=txtUserName
+admin.password.input = name=txtPassword
+admin.loginnow.button = name=btnLogin
+admin.homepage.label = xpath=//p[@id='mainHead']
+admin.uname = name=txtUserName
+admin.pwd = name=txtPassword
+admin.btn = name=btnLogin
+userdetails.header = xpath=//p[text()='User Details List']
+accountdetails.header = xpath=//p[text()='Account Details List']
+login.label = xpath=//td[text()=':: Admin Login ::']
+userdetails.link = xpath=//a[text()='User Details']
+accoutdetails.link = xpath=//a[text()='Account Details']
+logout.link = xpath=//a[text()='Logout']
+accountinfo.link = xpath=//a[text()='Account Information']
+admin.accoutstatement1 = xpath=//a[text()=']
+admin.accountstatement2 = xpath=']//parent::div//parent::td//following-sibling::td[4]/a\"}
+admin.accountstatement = xpath=//p[text()='Account Statement']
+adminlogout.link = xpath=//a[text()='Logout']
+adminhomepage.label = xpath=//p[@id='mainHead']

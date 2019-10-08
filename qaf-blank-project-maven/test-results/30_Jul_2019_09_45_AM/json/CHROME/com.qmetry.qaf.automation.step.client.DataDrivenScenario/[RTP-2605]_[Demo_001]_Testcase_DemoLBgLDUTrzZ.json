@@ -1,0 +1,211 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[http://demo.rapidtestpro.com/admin/login.php]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://demo.rapidtestpro.com/admin/login.php}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2392
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[${adminusername}, admin.uname]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=txtUserName, using=name}"
+          ],
+          "result": "id: 0.30132386091010366-1",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: txtUserName",
+            "{\"id\":\"0.30132386091010366-1\",\"value\":[\"admin\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 94
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[${adminpassword}, admin.pwd]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=txtPassword, using=name}"
+          ],
+          "result": "id: 0.30132386091010366-2",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: txtPassword",
+            "{\"id\":\"0.30132386091010366-2\",\"value\":[\"admin123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 87
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[admin.btn]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnLogin, using=name}"
+          ],
+          "result": "id: 0.30132386091010366-3",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnLogin",
+            "{\"id\":\"0.30132386091010366-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 378
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyPresent",
+      "args": [
+        "[adminhomepage.label]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//p[@id='mainHead'], using=xpath}"
+          ],
+          "result": "[id: 0.019373857447638976-1]",
+          "subLogs": [],
+          "duration": 34
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[adminlogout.link]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Logout'], using=xpath}"
+          ],
+          "result": "id: 0.019373857447638976-2",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Logout']",
+            "{\"id\":\"0.019373857447638976-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 192
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get \"http://demo.rapidtestpro.com/admin/login.php\"",
+      "type": "TestStepPass",
+      "duration": 8664,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys \"admin\" into \"admin.uname\"",
+      "type": "TestStepPass",
+      "duration": 240,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys \"admin123\" into \"admin.pwd\"",
+      "type": "TestStepPass",
+      "duration": 116,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on \"admin.btn\"",
+      "type": "TestStepPass",
+      "duration": 409,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify \"adminhomepage.label\" is present",
+      "type": "TestStepPass",
+      "duration": 513,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //p[@id='mainHead'] present : Actual By.xpath: //p[@id='mainHead'] present",
+          "type": "Pass",
+          "screenshot": "../img/[RTP-2605]_[Demo_001]_Testcase_Demo_86nb38j7xrj58488.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on \"adminlogout.link\"",
+      "type": "TestStepPass",
+      "duration": 215,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.qmetry:qaf-blank-project-maven:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 72, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------< com.qmetry:qaf-blank-project-maven >-----------------
+[INFO] Building qaf-blank-project-maven 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ qaf-blank-project-maven ---
+[INFO] Deleting C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ qaf-blank-project-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ qaf-blank-project-maven ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ qaf-blank-project-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ qaf-blank-project-maven ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\target\test-classes
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.7:test-compile (test-compile) @ qaf-blank-project-maven ---
+[INFO] Showing AJC message detail for messages of types: [error, warning, fail]
+[WARNING] build config error: skipping missing, empty or corrupt aspectpath entry: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\target\classes
+	<unknown source file>:<no line information>
+
+[WARNING] incorrect classpath: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\target\classes
+	<unknown source file>:<no line information>
+
+[WARNING] bad version number found in C:\Users\admin\.m2\repository\org\aspectj\aspectjrt\1.8.9\aspectjrt-1.8.9.jar expected 1.8.2 found 1.8.9
+	<unknown source file>:<no line information>
+
+[WARNING] advice defined in com.qmetry.qaf.automation.step.JavaStepReporter has not been applied [Xlint:adviceDidNotMatch]
+	C:\Users\admin\.m2\repository\com\qmetry\qaf\2.1.12-RC3\qaf-2.1.12-RC3.jar!com\qmetry\qaf\automation\step\JavaStepReporter.class:0
+
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.9:test (default-test) @ qaf-blank-project-maven ---
+[INFO] Surefire report directory: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[ConfigurationManager] - Resource dir: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\resources. Found property files to load: 3
+[ConfigurationManager] - Resource dir: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\resources. Found property files to load: 0
+include groups [@Demo_001_CHROME]
+ exclude groups: [] Scanarios location: null 
+DATAFILE=data/Demo_001_CHROME.json
+{DATAFILE=data/Demo_001_CHROME.json}
+Unable to get class com.qmetry.qaf.automation.step.WsStep from jar /C:/Users/admin/.m2/repository/com/qmetry/qaf-support-ws/2.1.12-RC2/qaf-support-ws-2.1.12-RC2.jar
+[QAFTestBase] - Initializing Driver...browser_str:chromeDriver,base_url:http://localhost,sel_server:docker.rapidtestpro.com,port:4444
+[UiDriverFactory] - Driver: chromeDriver
+Jun 20, 2019 6:00:03 PM org.openqa.selenium.remote.DesiredCapabilities edge
+INFO: Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+Jun 20, 2019 6:00:03 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Jun 20, 2019 6:00:03 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 48470
+Only local connections are allowed.
+Jun 20, 2019 6:00:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {"url":"http://demo.rapidtestpro.com/admin/login.php"}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://demo.rapidtestpro.com/admin/login.php}] Result: null
+[WebDriverCommandLogger] - Executing findElement parameters: {"using":"name","value":"txtUserName"}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=txtUserName, using=name}] Result: id: 0.02660402793038741-1
+[WebDriverCommandLogger] - Executing sendKeysToElement element: By.name: txtUserName parameters: {"id":"0.02660402793038741-1","value":["admin"]}
+[WebDriverCommandLogger] - command: sendKeysToElement[ param-1: By.name: txtUserName param-2: {"id":"0.02660402793038741-1","value":["admin"]}] Result: sendKeysToElement:null
+[WebDriverCommandLogger] - Executing findElement parameters: {"using":"name","value":"txtPassword"}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=txtPassword, using=name}] Result: id: 0.02660402793038741-2
+[WebDriverCommandLogger] - Executing sendKeysToElement element: By.name: txtPassword parameters: {"id":"0.02660402793038741-2","value":["admin123"]}
+[WebDriverCommandLogger] - command: sendKeysToElement[ param-1: By.name: txtPassword param-2: {"id":"0.02660402793038741-2","value":["admin123"]}] Result: sendKeysToElement:null
+[WebDriverCommandLogger] - Executing findElement parameters: {"using":"name","value":"btnLogin"}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=btnLogin, using=name}] Result: id: 0.02660402793038741-3
+[WebDriverCommandLogger] - Executing clickElement element: By.name: btnLogin parameters: {"id":"0.02660402793038741-3"}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.name: btnLogin param-2: {"id":"0.02660402793038741-3"}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing findElements parameters: {"using":"xpath","value":"//p[@id='mainHead']"}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//p[@id='mainHead'], using=xpath}] Result: [id: 0.6083337994901141-1]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shot[RTP-2605]_[Demo_001]_Testcase_Demo_kuwerm4o8tgx34541.png
+[WebDriverCommandLogger] - Executing findElement parameters: {"using":"xpath","value":"//a[text()='Logout']"}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//a[text()='Logout'], using=xpath}] Result: id: 0.6083337994901141-2
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //a[text()='Logout'] parameters: {"id":"0.6083337994901141-2"}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //a[text()='Logout'] param-2: {"id":"0.6083337994901141-2"}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing quit parameters: {}
+[WebDriverCommandLogger] - command: quit[ param-1: {}] Result: null
+[UiDriverFactory] - UI-driver tear down complete...
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.666 sec
+Preparing For Shut Down...
+Preparing For Shut Down...
+[ChromeDriverHelper] - Stopping chrome driver service.
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ qaf-blank-project-maven ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\target\qaf-blank-project-maven-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ qaf-blank-project-maven ---
+[INFO] Installing C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\target\qaf-blank-project-maven-0.0.1-SNAPSHOT.jar to C:\Users\admin\.m2\repository\com\qmetry\qaf-blank-project-maven\0.0.1-SNAPSHOT\qaf-blank-project-maven-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\admin\Desktop\BackUp\Raghul\RTP_Execution\RTP_Run\4_7-1267-1054-393\pom.xml to C:\Users\admin\.m2\repository\com\qmetry\qaf-blank-project-maven\0.0.1-SNAPSHOT\qaf-blank-project-maven-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 30.889 s
+[INFO] Finished at: 2019-06-20T18:00:19+05:30
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+{
+  "name": "TestDemo",
+  "status": "pass",
+  "tests": [
+    "CHROME"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1564992596315,
+  "endTime": 1564992614850
+}

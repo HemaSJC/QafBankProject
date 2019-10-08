@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get "http://demo.rapidtestpro.com/admin/login.php"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When sendKeys "admin" into "admin.uname"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys "admin123" into "admin.pwd"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on "admin.btn"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify "adminhomepage.label" is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //p[@id='mainHead'] present : Actual By.xpath: //p[@id='mainHead'] present <a href="../img/[RTP-2605]_[Demo_001]_Testcase_Demo_73g1m66fnpqx20960.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on "adminlogout.link"</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="TestDemo" duration-ms="8104" started-at="2019-08-09T10:14:25Z" finished-at="2019-08-09T10:14:33Z">
+    <groups>
+      <group name="@Demo_001_CHROME">
+        <method signature="scenarios.TestDemo.feature.[RTP-2605]_[Demo_001]_Testcase_Demo( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="[RTP-2605]_[Demo_001]_Testcase_Demo" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- @Demo_001_CHROME -->
+    </groups>
+    <test name="CHROME" duration-ms="8104" started-at="2019-08-09T10:14:25Z" finished-at="2019-08-09T10:14:33Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="setupSuit" is-config="true" duration-ms="46" started-at="2019-08-09T15:44:25Z" finished-at="2019-08-09T15:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4416d64f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="setupTest" is-config="true" duration-ms="7" started-at="2019-08-09T15:44:25Z" finished-at="2019-08-09T15:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4416d64f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="setup" is-config="true" duration-ms="1" started-at="2019-08-09T15:44:25Z" finished-at="2019-08-09T15:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4416d64f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="setupMethod" is-config="true" duration-ms="1" started-at="2019-08-09T15:44:25Z" finished-at="2019-08-09T15:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4416d64f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="[RTP-2605]_[Demo_001]_Testcase_Demo( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="[RTP-2605]_[Demo_001]_Testcase_Demo" duration-ms="7468" started-at="2019-08-09T15:44:25Z" data-provider="scenariodp" finished-at="2019-08-09T15:44:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get "http://demo.rapidtestpro.com/admin/login.php"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When sendKeys "admin" into "admin.uname"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys "admin123" into "admin.pwd"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on "admin.btn"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify "adminhomepage.label" is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //p[@id='mainHead'] present : Actual By.xpath: //p[@id='mainHead'] present <a href="../img/[RTP-2605]_[Demo_001]_Testcase_Demo_73g1m66fnpqx20960.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on "adminlogout.link"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- [RTP-2605]_[Demo_001]_Testcase_Demo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-08-09T15:44:32Z" finished-at="2019-08-09T15:44:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4416d64f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=[RTP-2605]_[Demo_001]_Testcase_Demo status=SUCCESS method=scenarios.TestDemo.feature.[RTP-2605]_[Demo_001]_Testcase_Demo( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get "http://demo.rapidtestpro.com/admin/login.php"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When sendKeys "admin" into "admin.uname"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys "admin123" into "admin.pwd"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on "admin.btn"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify "adminhomepage.label" is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //p[@id='mainHead'] present : Actual By.xpath: //p[@id='mainHead'] present <a href="../img/[RTP-2605]_[Demo_001]_Testcase_Demo_73g1m66fnpqx20960.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on "adminlogout.link"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="afterClass" is-config="true" duration-ms="2" started-at="2019-08-09T15:44:32Z" finished-at="2019-08-09T15:44:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4416d64f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="[RTP-2605]_[Demo_001]_Testcase_Demo" name="afterTest" is-config="true" duration-ms="463" started-at="2019-08-09T15:44:32Z" finished-at="2019-08-09T15:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4416d64f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- CHROME -->
+  </suite> <!-- TestDemo -->
+</testng-results>

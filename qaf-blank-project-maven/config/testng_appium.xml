@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+	<suite name="TestDemo" verbose="0" parallel="tests"> 	
+		<listeners> 		
+			<listener class-name="com.rtp.listener.RTPListener" />	
+		</listeners> 	
+		<parameter name="RTP_resultId" value="1,054" /> 	
+			<test name="CHROME" enabled="true"> 		
+				<parameter name="driver.name" value="chromeDriver" /> 
+				<!-- <parameter name="driver.additional.capabilities" value="{'name':'TEST - TestDemo', 'build':'1,054_CHROME'}" /> -->
+				
+				<groups> 			
+					<run> 				
+							<include name="@Demo_001_CHROME" /> 				
+					</run> 		
+				</groups> 		
+				<classes> 			
+					<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" /> 							
+				</classes> 	
+			</test> 	
+	</suite>
