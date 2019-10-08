@@ -2,6 +2,16 @@
   "reports": [
     {
       "name": "TestDemo",
+      "dir": "test-results/08_Oct_2019_10_19_AM/json",
+      "startTime": 1570530004483
+    },
+    {
+      "name": "TestDemo",
+      "dir": "test-results/08_Oct_2019_10_00_AM/json",
+      "startTime": 1570529116608
+    },
+    {
+      "name": "TestDemo",
       "dir": "test-results/09_Aug_2019_09_36_AM/json",
       "startTime": 1565345665022
     },

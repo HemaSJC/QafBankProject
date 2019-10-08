@@ -1,0 +1,23 @@
+15:50:04 scenario.file.loc[Ljava.lang.String;@6b9651f3
+15:50:04 loading feature file: C:\Users\hemalathak\git\QafBankProject\qaf-blank-project-maven\.\scenarios\TestDemo.feature
+15:50:04 total test found: 1
+15:50:04 
+
+Executing scenario: [RTP-2605]_[Demo_001]_Testcase_Demo - 
+15:50:04 Test Data{adminpassword=admin123, TestCaseID=Demo_001_CHROME, adminusername=admin}
+15:50:04 pkg: com.qmetry.qaf.automation.step
+15:50:05 pkg: com.rtp.steps
+15:50:05 Found duplicate step to load [] with [lower] prority then []
+15:50:05 Invoking Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:50:14 Completed Teststep: Given get "http://demo.rapidtestpro.com/admin/login.php" with arguments: [http://demo.rapidtestpro.com/admin/login.php]
+15:50:14 Invoking Teststep: When sendKeys "${adminusername}" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:50:14 Completed Teststep: When sendKeys "admin" into "admin.uname" with arguments: [${adminusername}, admin.uname]
+15:50:14 Invoking Teststep: And sendKeys "${adminpassword}" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:50:14 Completed Teststep: And sendKeys "admin123" into "admin.pwd" with arguments: [${adminpassword}, admin.pwd]
+15:50:14 Invoking Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:50:16 Completed Teststep: And click on "admin.btn" with arguments: [admin.btn]
+15:50:16 Invoking Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:50:17 Completed Teststep: Then verify "adminhomepage.label" is present with arguments: [adminhomepage.label]
+15:50:17 Invoking Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:50:31 Completed Teststep: And click on "adminlogout.link" with arguments: [adminlogout.link]
+15:50:31 Competed scenario: [RTP-2605]_[Demo_001]_Testcase_Demo with status SUCESS

@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "adminpassword": "admin123",
+          "TestCaseID": "Demo_001_CHROME",
+          "adminusername": "admin"
+        }
+      ],
+      "metaData": {
+        "datafile": "data/Demo_001_CHROME.json",
+        "description": "",
+        "groups": [
+          "@Demo_001_CHROME"
+        ],
+        "lineNo": 4,
+        "name": "[RTP-2605]_[Demo_001]_Testcase_Demo",
+        "referece": "scenarios/TestDemo.feature",
+        "sign": "scenarios.TestDemo.feature.[RTP-2605]_[Demo_001]_Testcase_Demo( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1570530004751,
+      "duration": 26535,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
